@@ -231,7 +231,7 @@ function queCounter(index){
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
 
-const url = 'http://test.seungwook.me:5959/';
+const url = 'http://quiz.miscthings.net/';
 
 function setShare() {
   const shareTitle = '대구대학교 탐구영역 성적';
