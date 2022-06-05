@@ -153,7 +153,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
         resultAlt = 0;
     }
-    else if(userScore > 7){ // if user scored more than 4
+    else if(userScore > 6){ // if user scored more than 4
         let scoreTag = `
             <div class="text-center">
                 <img id="mainImg" src="img/01.png" alt="mainImage" class="img-fluid" width="100%" height="100%">
@@ -163,7 +163,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
         resultAlt = 1;
     }
-    else if(userScore > 3){ // if user scored more than 1
+    else if(userScore > 1){ // if user scored more than 1
         let scoreTag = `
             <div class="text-center">
                 <img id="mainImg" src="img/02.png" alt="mainImage" class="img-fluid" width="100%" height="100%">
